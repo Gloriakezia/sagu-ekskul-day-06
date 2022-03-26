@@ -8,8 +8,8 @@
 <body>
 
 <?php
-  echo "Hi there";
-  pirnt "Daniel"
+  echo "Hi there ";
+  print "Daniel";
 ?>
 
 </body>
