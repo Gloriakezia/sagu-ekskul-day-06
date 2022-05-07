@@ -16,7 +16,7 @@
         <button type="submit" name="submit">Sign up</button>
         </form>
         <?php
-        $fullUrl = "https;//$_SERVER[HTTPS-HOST]$_SERVER[REQUEST_URI]";
+        $fullUrl = "https;//$_SERVER[HTTPS-HOST]$_SERVER[REQUEST_URI];
 
         if (strops($fullUrl, "signup=empty") == true){
             echo "<p class='error'You did not fill in all fields!</p>";
@@ -35,7 +35,7 @@
             exit();
         }
 
-        
+
 
         ?>
 
